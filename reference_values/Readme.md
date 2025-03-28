@@ -1,0 +1,2 @@
+# Reference Values
+The files in this directory are used to genearate reference-values for the TD Integrity appraisal policy.  They were collected from different CSPs using the Trust Authority's trustauthority-cli (see https://github.com/intel/trustauthority-client-for-go).  Please refer to the subirectories for instructions on collecting claims used to generate td-integrity.txt.
