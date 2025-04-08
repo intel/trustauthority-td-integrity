@@ -1,0 +1,54 @@
+#--------------------------------------------------------------------------------------------------
+# Copyright(C) 2025 Intel Corporation. All Rights Reserved.
+#--------------------------------------------------------------------------------------------------
+name: CI Build
+
+on:
+  push:
+    branches:
+      - '**'
+
+env:
+  http_proxy: ${{ vars.HTTP_PROXY }}
+  https_proxy: ${{ vars.HTTPS_PROXY }}
+  no_proxy: ${{ vars.NO_PROXY }}
+
+jobs:
+  build:
+    runs-on: ["ubuntu-22.04"]
+
+    steps:
+        - uses: actions/checkout@v4
+          with:
+            submodules: 'true'
+            fetch-depth: 0
+
+        - uses: actions/setup-node@v4
+          with:
+            node-version: '16'
+
+        # Download and install OPA and run the build script
+        - run: curl -L -o opa https://github.com/open-policy-agent/opa/releases/download/v0.70.0/opa_linux_amd64
+        - run: chmod +x opa
+        - run: sudo mv opa /usr/local/bin/opa
+        - run: opa version
+
+        # create artifacts in 'out' directory
+        - run: mkdir -p out
+        - run: scripts/reference_values.sh > out/reference-values.json
+        - run: scripts/build.sh
+        - run: scripts/test.sh
+        - run: node scripts/doc_gen.js `pwd`/out/reference-values.json $(shell git log --pretty=tformat:"%h" -n1 .) > out/td-integrity.html
+
+        # Upload the generated files as artifacts
+        - uses: actions/upload-artifact@v4
+          with:
+            name: td-integrity
+            path: | 
+              out/td-integrity.rego
+              out/td-integrity.txt
+              out/reference-values.json
+              out/td-integrity.html
+            retention-days: 30
+
+  
