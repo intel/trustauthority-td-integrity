@@ -21,7 +21,7 @@ RV_ARRAY=$(jq -n '[input | .reference_values] | add' <<< "${RV_JSON}")
 cp rego/td-integrity.rego ${REGO_OUTPUT_FILE}
 sed -i "s/\[DATE\]/$(date +"%Y-%m-%dT%H:%M:%S%z")/g" ${REGO_OUTPUT_FILE}
 sed -i "s/\[BRANCH\]/$(git branch --show-current | tr '/' '.')/g" ${REGO_OUTPUT_FILE}
-sed -i "s/\[COMMIT\]/$(git log --pretty=tformat:"%h" -n1 .)/g" ${REGO_OUTPUT_FILE}
+sed -i "s/\[COMMIT\]/$( git rev-parse --short HEAD)/g" ${REGO_OUTPUT_FILE}
 echo "#------------------------------------------------------------" >> ${REGO_OUTPUT_FILE}
 echo "# Reference Values" >> ${REGO_OUTPUT_FILE}
 echo "#------------------------------------------------------------" >> ${REGO_OUTPUT_FILE}
