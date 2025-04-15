@@ -35,30 +35,18 @@ tdx_debug := rv {
     }
 }
 
+# Find and include the SecureBoot efi variable in the event log
 secure_boot := rv {
+    evl := input.tpm.uefi_event_logs[_]
+    evl.index == 7
+    evl.type_name == "EV_EFI_VARIABLE_DRIVER_CONFIG"
+    evl.details.unicode_name == "SecureBoot"
+    evl.details.variable_data = "AQ==" # "1" or enabled
+
     rv := {
         "description": "Require that the vTPM event-logs contains a SecureBoot EFI variable with value 1 (or true/enabled)",
         "evidence_path": "tpm.uefi_event_logs",
-        "expected_value": {
-            "details": {
-            "unicode_name": "SecureBoot",
-            "unicode_name_length": 10,
-            "variable_data": "AQ==",
-            "variable_data_length": 1,
-            "variable_name": "61dfe48b-ca93-d211-aa0d-00e098032b8c"
-            },
-            "digest_matches_event": true,
-            "digests": [
-            {
-                "alg": "SHA-256",
-                "digest": "ccfc4bb32888a345bc8aeadaba552b627d99348c767681ab3141f5b01e40a40e"
-            }
-            ],
-            "event": "Yd/ki8qT0hGqDQDgmAMrjAoAAAAAAAAAAQAAAAAAAABTAGUAYwB1AHIAZQBCAG8AbwB0AAE=",
-            "index": 7,
-            "type": 2147483649,
-            "type_name": "EV_EFI_VARIABLE_DRIVER_CONFIG"
-        }
+        "expected_value": evl
     }
 }
 

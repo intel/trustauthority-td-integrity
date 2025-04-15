@@ -14,7 +14,7 @@
       "qeidcerthash": "b2ca71b8e849d5e799451b4bfe43159a0ee548032cecb2c0e479bf6ee3f39fd1",
       "qeidcrlhash": "807f576950dcf1a807ae59e0ba8eac19664ec39896c1fe2de5cc8a9cc9d3375f",
       "qeidhash": "d0cac2cbd2d43db1055d41bceb7ce5eb98a8b79a97a9bcb6bf7b6b8141088b83",
-      "quotehash": "0d2af1baa9c4843c21b0dc50fbe85d2b8d67b85a77b28dadfb416b6eff0236a1",
+      "quotehash": "de3589e2c2de9a4613b5f3aca9718a86e8890b2dd9fe58b39c15f5de800feb3f",
       "tcbinfocerthash": "b2ca71b8e849d5e799451b4bfe43159a0ee548032cecb2c0e479bf6ee3f39fd1",
       "tcbinfocrlhash": "807f576950dcf1a807ae59e0ba8eac19664ec39896c1fe2de5cc8a9cc9d3375f",
       "tcbinfohash": "c33fb108ec392a5004eaeb099ff592c5d3ce5a638acbfcc423acbdcf8e9a80b5"
@@ -27,9 +27,9 @@
     "tdx_mrsignerseam": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
     "tdx_mrtd": "2a90c8fa38672cafd791d994beb6836b99383b2563736858632284f0f760a6446efd1e7ec457cf08b629ea630f7b4525",
     "tdx_report_data": "cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e",
-    "tdx_rtmr0": "237e8736fa5edfcbc6a4d4dad96a1f618a4b9d9f43ca769e40c0c5c2cb64b92e7e3471d975ae04f1519181df439e3e97",
-    "tdx_rtmr1": "0e8dea5cae570ad4dddcf1ba231085b3531036a545ad76599f20a366da218124d5e520c37e276e6da032ddf42da5fa1e",
-    "tdx_rtmr2": "16fd96d91839f992b6686a304afbbb5d35bef9e13370ea7f444bfa867f5336af1b937658ca0285a99ae1166821f50667",
+    "tdx_rtmr0": "4bbfaca25e3b49fe93cd520b09f79241e08e249bf0112397a05314c9c269ef14f1b19859da72050b374b1a075bf5d0ca",
+    "tdx_rtmr1": "5b9490713322ee139e8033786ce5df1e06da8193d6b5341fb5c6953a09826b9a12148a096e01e0b6bc662e248eb27585",
+    "tdx_rtmr2": "2985ab1a057b9aee3fd62768743e759a649794f5c068b98008f4c4b092716b3e0120e3646f653ba2ecdc8ed30e2f23f1",
     "tdx_rtmr3": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
     "tdx_seam_attributes": "0000000000000000",
     "tdx_seamsvn": 264,
@@ -74,7 +74,7 @@
         "details": {
           "unicode_name": "SecureBoot",
           "unicode_name_length": 10,
-          "variable_data": "AA==",
+          "variable_data": "AQ==",
           "variable_data_length": 1,
           "variable_name": "61dfe48b-ca93-d211-aa0d-00e098032b8c"
         },
@@ -82,10 +82,10 @@
         "digests": [
           {
             "alg": "SHA-384",
-            "digest": "cfa4e2c606f572627bf06d5669cc2ab1128358d27b45bc63ee9ea56ec109cfafb7194006f847a6a74b5eaed6b73332ec"
+            "digest": "2cded0c6f453d4c6f59c5e14ec61abc6b018314540a2367cba326a52aa2b315ccc08ce68a816ce09c6ef2ac7e514ae1f"
           }
         ],
-        "event": "Yd/ki8qT0hGqDQDgmAMrjAoAAAAAAAAAAQAAAAAAAABTAGUAYwB1AHIAZQBCAG8AbwB0AAA=",
+        "event": "Yd/ki8qT0hGqDQDgmAMrjAoAAAAAAAAAAQAAAAAAAABTAGUAYwB1AHIAZQBCAG8AbwB0AAE=",
         "index": 1,
         "type": 2147483649,
         "type_name": "EV_EFI_VARIABLE_DRIVER_CONFIG"
@@ -250,7 +250,7 @@
         "details": {
           "unicode_name": "Boot0002",
           "unicode_name_length": 8,
-          "variable_data": "AQAAAIQAdQBiAHUAbgB0AHUAAAACAQwA0EEDCgAAAAABAQYAAAQDFxAAAQAAAAAAAAAAAAAABAEqAA8AAAAAKAAAAAAAAABQAwAAAAAAI006WpFnGEKMYieCRoKkggICBAQ0AFwARQBGAEkAXAB1AGIAdQBuAHQAdQBcAHMAaABpAG0AeAA2ADQALgBlAGYAaQAAAH//BAA=",
+          "variable_data": "AQAAAIQAdQBiAHUAbgB0AHUAAAACAQwA0EEDCgAAAAABAQYAAAQDFxAAAQAAAAAAAAAAAAAABAEqAA8AAAAAKAAAAAAAAABQAwAAAAAA4SXn01/jJEi6hIrdWUu8LAICBAQ0AFwARQBGAEkAXAB1AGIAdQBuAHQAdQBcAHMAaABpAG0AeAA2ADQALgBlAGYAaQAAAH//BAA=",
           "variable_data_length": 152,
           "variable_name": "61dfe48b-ca93-d211-aa0d-00e098032b8c"
         },
@@ -258,10 +258,10 @@
         "digests": [
           {
             "alg": "SHA-384",
-            "digest": "4ad9a24c982b4ebd644425bca5de937a7c6cafab194a0ba1be56d0246a6c77b22f201277fa546ae28b2c386a567364a0"
+            "digest": "453bee9df1f5bd0fad9b4a2667005e0a38afcb5ccb08758591b5fc65f97c6a1cad89e51d2d659dd736271de09c4fcaae"
           }
         ],
-        "event": "Yd/ki8qT0hGqDQDgmAMrjAgAAAAAAAAAmAAAAAAAAABCAG8AbwB0ADAAMAAwADIAAQAAAIQAdQBiAHUAbgB0AHUAAAACAQwA0EEDCgAAAAABAQYAAAQDFxAAAQAAAAAAAAAAAAAABAEqAA8AAAAAKAAAAAAAAABQAwAAAAAAI006WpFnGEKMYieCRoKkggICBAQ0AFwARQBGAEkAXAB1AGIAdQBuAHQAdQBcAHMAaABpAG0AeAA2ADQALgBlAGYAaQAAAH//BAA=",
+        "event": "Yd/ki8qT0hGqDQDgmAMrjAgAAAAAAAAAmAAAAAAAAABCAG8AbwB0ADAAMAAwADIAAQAAAIQAdQBiAHUAbgB0AHUAAAACAQwA0EEDCgAAAAABAQYAAAQDFxAAAQAAAAAAAAAAAAAABAEqAA8AAAAAKAAAAAAAAABQAwAAAAAA4SXn01/jJEi6hIrdWUu8LAICBAQ0AFwARQBGAEkAXAB1AGIAdQBuAHQAdQBcAHMAaABpAG0AeAA2ADQALgBlAGYAaQAAAH//BAA=",
         "index": 1,
         "type": 2147483650,
         "type_name": "EV_EFI_VARIABLE_BOOT"
@@ -337,15 +337,35 @@
         "type_name": "EV_SEPARATOR"
       },
       {
+        "details": {
+          "unicode_name": "db",
+          "unicode_name_length": 2,
+          "variable_data": "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",
+          "variable_data_length": 1572,
+          "variable_name": "cbb219d7-3a3d-9645-a3bc-dad00e67656f"
+        },
+        "digest_matches_event": true,
+        "digests": [
+          {
+            "alg": "SHA-384",
+            "digest": "5b327d9b9484091c979a2c6e01f5a572dd8ebe49762961287da5aca1fdd6ed44262d93b71bff436f80e8755943909d10"
+          }
+        ],
+        "event": "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",
+        "index": 1,
+        "type": 2147483872,
+        "type_name": "EV_EFI_VARIABLE_AUTHORITY"
+      },
+      {
         "details": null,
         "digest_matches_event": true,
         "digests": [
           {
             "alg": "SHA-384",
-            "digest": "eedf014a8e80b5ac3d30ed65d1c1b5174c351085c169adacab18ce3116d1ca7e5d8e51582a54667e44a5c7274f0acc30"
+            "digest": "f899deec2908f47cacd20c53252dc7c63116c68357a16accaa340c8c48a455fad062683a8c708d90b478e6a626a098d4"
           }
         ],
-        "event": "RUZJIFBBUlQAAAEAXAAAAGLRuNsAAAAAAQAAAAAAAAD//z8BAAAAACIAAAAAAAAA3v8/AQAAAABXxFCQA38KQ5QEfFzN+1orAgAAAAAAAACAAAAAgAAAAO3Kg/ADAAAAAAAAAK89xg+DhHJHjnk9adhHfeQfxlGw79OCTpRjxG8oENl0AHgDAAAAAADe/z8BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASGFoIUlkb250TmVlZEVGSTLtf9NgGE1Lq+GXHP/J9ZEACAAAAAAAAP8nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAocyrBH/jSEbpLAKDJPsk7I006WpFnGEKMYieCRoKkggAoAAAAAAAA/3cDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "event": "RUZJIFBBUlQAAAEAXAAAACafnA4AAAAAAQAAAAAAAAD//38AAAAAACIAAAAAAAAA3v9/AAAAAAC2qbNblGwfRaPvPmPZVD1YAgAAAAAAAACAAAAAgAAAAKIH/hkDAAAAAAAAAK89xg+DhHJHjnk9adhHfeREgQvNBtWjSJex8f/+K6fdAHgDAAAAAADe/38AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASGFoIUlkb250TmVlZEVGSXC0hRykSXROshRQP7CwmnIACAAAAAAAAP8nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAocyrBH/jSEbpLAKDJPsk74SXn01/jJEi6hIrdWUu8LAAoAAAAAAAA/3cDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
         "index": 2,
         "type": 2147483654,
         "type_name": "EV_EFI_GPT_EVENT"
@@ -356,7 +376,7 @@
             "ACPI(PNP0A03,0)",
             "Pci(0,4)",
             "Path(3,23,010000000000000000000000)",
-            "HD(15,GPT,5A3A4D23-6791-4218-8C62-27824682A482,0x2800,0x35000)",
+            "HD(15,GPT,D3E725E1-E35F-4824-BA84-8ADD594BBC2C,0x2800,0x35000)",
             "File(\\EFI\\ubuntu\\shimx64.efi)",
             ""
           ]
@@ -368,7 +388,7 @@
             "digest": "4637fb5cd30847e5f09ae24f8a50ce1611c4d21afd0ecb69c8ec40bc82dc11bc48abda1f8044fe340bfb70b29606eb47"
           }
         ],
-        "event": "GCDXvAAAAAAIwA4AAAAAAAAAAAAAAAAAhAAAAAAAAAACAQwA0EEDCgAAAAABAQYAAAQDFxAAAQAAAAAAAAAAAAAABAEqAA8AAAAAKAAAAAAAAABQAwAAAAAAI006WpFnGEKMYieCRoKkggICBAQ0AFwARQBGAEkAXAB1AGIAdQBuAHQAdQBcAHMAaABpAG0AeAA2ADQALgBlAGYAaQAAAH//BAA=",
+        "event": "GLDWvAAAAAAIwA4AAAAAAAAAAAAAAAAAhAAAAAAAAAACAQwA0EEDCgAAAAABAQYAAAQDFxAAAQAAAAAAAAAAAAAABAEqAA8AAAAAKAAAAAAAAABQAwAAAAAA4SXn01/jJEi6hIrdWUu8LAICBAQ0AFwARQBGAEkAXAB1AGIAdQBuAHQAdQBcAHMAaABpAG0AeAA2ADQALgBlAGYAaQAAAH//BAA=",
         "index": 2,
         "type": 2147483651,
         "type_name": "EV_EFI_BOOT_SERVICES_APPLICATION"
@@ -409,18 +429,18 @@
         "details": {
           "unicode_name": "SbatLevel",
           "unicode_name_length": 9,
-          "variable_data": "c2JhdCwxLDIwMjEwMzAyMTgK",
-          "variable_data_length": 18,
+          "variable_data": "c2JhdCwxLDIwMjMwMTI5MDAKc2hpbSwyCmdydWIsMwpncnViLmRlYmlhbiw0Cg==",
+          "variable_data_length": 46,
           "variable_name": "50ab5d60-46e0-0043-abb6-3dd810dd8b23"
         },
         "digest_matches_event": true,
         "digests": [
           {
             "alg": "SHA-384",
-            "digest": "f143e2948d63fcd3442e841bb36a7e180871f0a8946541961fe9d12e70d0727874600956264dba531e2edd8729c5eb38"
+            "digest": "a3b0bbcacbc398e4302bcb5017a06ce2daf4229f790b4ad85e538f9c194180f1f271f45ec4ec4c3ad1de377268524285"
           }
         ],
-        "event": "UKtdYEbgAEOrtj3YEN2LIwkAAAAAAAAAEgAAAAAAAABTAGIAYQB0AEwAZQB2AGUAbABzYmF0LDEsMjAyMTAzMDIxOAo=",
+        "event": "UKtdYEbgAEOrtj3YEN2LIwkAAAAAAAAALgAAAAAAAABTAGIAYQB0AEwAZQB2AGUAbABzYmF0LDEsMjAyMzAxMjkwMApzaGltLDIKZ3J1YiwzCmdydWIuZGViaWFuLDQK",
         "index": 1,
         "type": 2147483872,
         "type_name": "EV_EFI_VARIABLE_AUTHORITY"
@@ -443,6 +463,26 @@
       },
       {
         "details": {
+          "unicode_name": "MokListRT",
+          "unicode_name_length": 9,
+          "variable_data": "UKtdYEbgAEOrtj3YEN2LIzCCBDQwggMcoAMCAQICCQC5QSSgGCySZzANBgkqhkiG9w0BAQsFADCBhDELMAkGA1UEBhMCR0IxFDASBgNVBAgMC0lzbGUgb2YgTWFuMRAwDgYDVQQHDAdEb3VnbGFzMRcwFQYDVQQKDA5DYW5vbmljYWwgTHRkLjE0MDIGA1UEAwwrQ2Fub25pY2FsIEx0ZC4gTWFzdGVyIENlcnRpZmljYXRlIEF1dGhvcml0eTAeFw0xMjA0MTIxMTEyNTFaFw00MjA0MTExMTEyNTFaMIGEMQswCQYDVQQGEwJHQjEUMBIGA1UECAwLSXNsZSBvZiBNYW4xEDAOBgNVBAcMB0RvdWdsYXMxFzAVBgNVBAoMDkNhbm9uaWNhbCBMdGQuMTQwMgYDVQQDDCtDYW5vbmljYWwgTHRkLiBNYXN0ZXIgQ2VydGlmaWNhdGUgQXV0aG9yaXR5MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAv1s6FnTuIV2uYe2dVqy93t5y891+LUxiD6zAbUgIEc+Ni/thHyfMEW7ZVT05VOtAO7G74oU0ecr3e7+6esgQLRl9rVnPptTpTg/arlLqTJ6QzsaZDU5nZXhd+dHVOEpKeo+TnH8ao4XbzvqL98KiIS2bVEE1EFcTjWy8KQZQSn7qmalopzvHBxsynqAZhw55u2iZLX6TUuX268mb+SvtuGhJvNmVUEBbxbJxqutcV95x+UAK3VusHoQtUBpS1uHza26QZE9btOsg5GEQ2lrw6uRC1wHE/iEf2bnAVJVCgVJyH0lkeshsJPEIcAtNpaAy0aAcV6hN46+ljgUFPhBDoQIDAQABo4GmMIGjMB0GA1UdDgQWBBStkZkLwiqx9RcEjCO2ZVomjjRaYzAfBgNVHSMEGDAWgBStkZkLwiqx9RcEjCO2ZVomjjRaYzAPBgNVHRMBAf8EBTADAQH/MAsGA1UdDwQEAwIBhjBDBgNVHR8EPDA6MDigNqA0hjJodHRwOi8vd3d3LmNhbm9uaWNhbC5jb20vc2VjdXJlLWJvb3QtbWFzdGVyLWNhLmNybDANBgkqhkiG9w0BAQsFAAOCAQEAP332dqWzg7QretBtUhoDg8QSp1CcR5LMwJR3gtKuV7OZBPUyOsZVHQfbEqlW+tjUdiDr5MNR25pcnJI/GHPalGqhmTiMpIhtwfw5cdB0dhYDPlYjNdVVR1saHUHC0xJM3P+uCpKcYgoXAZxz4F6x/bzWtRkRen7NPgN+ZttbqMk5SFH/U+GcMVORGzsQdQMXuuaBAoCUcExGt5SwPRXNH44C4GgCj/v5Rx19ogHGB1HEmszt3c+jXe2Su77R/ebsHzNRcwS+PHKwfQj4Af+Yfcuc4Gk5dyVHcYixjSelLqj3P1+AaZc+qfSZFNvOAw4LZsQcbb24J3fBQpS9/GoKvA==",
+          "variable_data_length": 1096,
+          "variable_name": "50ab5d60-46e0-0043-abb6-3dd810dd8b23"
+        },
+        "digest_matches_event": true,
+        "digests": [
+          {
+            "alg": "SHA-384",
+            "digest": "68b46bbad03d5dac212f0092aad150c9b5c6d997a6e294d435d5f6a9be28cb0209c727c29869b42a63aadca35f700037"
+          }
+        ],
+        "event": "UKtdYEbgAEOrtj3YEN2LIwkAAAAAAAAASAQAAAAAAABNAG8AawBMAGkAcwB0AFIAVABQq11gRuAAQ6u2PdgQ3YsjMIIENDCCAxygAwIBAgIJALlBJKAYLJJnMA0GCSqGSIb3DQEBCwUAMIGEMQswCQYDVQQGEwJHQjEUMBIGA1UECAwLSXNsZSBvZiBNYW4xEDAOBgNVBAcMB0RvdWdsYXMxFzAVBgNVBAoMDkNhbm9uaWNhbCBMdGQuMTQwMgYDVQQDDCtDYW5vbmljYWwgTHRkLiBNYXN0ZXIgQ2VydGlmaWNhdGUgQXV0aG9yaXR5MB4XDTEyMDQxMjExMTI1MVoXDTQyMDQxMTExMTI1MVowgYQxCzAJBgNVBAYTAkdCMRQwEgYDVQQIDAtJc2xlIG9mIE1hbjEQMA4GA1UEBwwHRG91Z2xhczEXMBUGA1UECgwOQ2Fub25pY2FsIEx0ZC4xNDAyBgNVBAMMK0Nhbm9uaWNhbCBMdGQuIE1hc3RlciBDZXJ0aWZpY2F0ZSBBdXRob3JpdHkwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC/WzoWdO4hXa5h7Z1WrL3e3nLz3X4tTGIPrMBtSAgRz42L+2EfJ8wRbtlVPTlU60A7sbvihTR5yvd7v7p6yBAtGX2tWc+m1OlOD9quUupMnpDOxpkNTmdleF350dU4Skp6j5OcfxqjhdvO+ov3wqIhLZtUQTUQVxONbLwpBlBKfuqZqWinO8cHGzKeoBmHDnm7aJktfpNS5fbryZv5K+24aEm82ZVQQFvFsnGq61xX3nH5QArdW6wehC1QGlLW4fNrbpBkT1u06yDkYRDaWvDq5ELXAcT+IR/ZucBUlUKBUnIfSWR6yGwk8QhwC02loDLRoBxXqE3jr6WOBQU+EEOhAgMBAAGjgaYwgaMwHQYDVR0OBBYEFK2RmQvCKrH1FwSMI7ZlWiaONFpjMB8GA1UdIwQYMBaAFK2RmQvCKrH1FwSMI7ZlWiaONFpjMA8GA1UdEwEB/wQFMAMBAf8wCwYDVR0PBAQDAgGGMEMGA1UdHwQ8MDowOKA2oDSGMmh0dHA6Ly93d3cuY2Fub25pY2FsLmNvbS9zZWN1cmUtYm9vdC1tYXN0ZXItY2EuY3JsMA0GCSqGSIb3DQEBCwUAA4IBAQA/ffZ2pbODtCt60G1SGgODxBKnUJxHkszAlHeC0q5Xs5kE9TI6xlUdB9sSqVb62NR2IOvkw1Hbmlyckj8Yc9qUaqGZOIykiG3B/Dlx0HR2FgM+ViM11VVHWxodQcLTEkzc/64KkpxiChcBnHPgXrH9vNa1GRF6fs0+A35m21uoyTlIUf9T4ZwxU5EbOxB1Axe65oECgJRwTEa3lLA9Fc0fjgLgaAKP+/lHHX2iAcYHUcSazO3dz6Nd7ZK7vtH95uwfM1FzBL48crB9CPgB/5h9y5zgaTl3JUdxiLGNJ6UuqPc/X4Bplz6p9JkU284DDgtmxBxtvbgnd8FClL38agq8",
+        "index": 1,
+        "type": 2147483872,
+        "type_name": "EV_EFI_VARIABLE_AUTHORITY"
+      },
+      {
+        "details": {
           "device_paths": [
             "File(\\EFI\\ubuntu\\grubx64.efi)",
             ""
@@ -455,7 +495,7 @@
             "digest": "6d8cb3c7e081642685e2d4d511b51a5eadf5f9d32bf267fbfca5dc171d4508d6504d05eaa3a8360ac5a045829331776f"
           }
         ],
-        "event": "GACivAAAAACIpycAAAAAAAAAAAAAAAAAOAAAAAAAAAAEBDQAXABFAEYASQBcAHUAYgB1AG4AdAB1AFwAZwByAHUAYgB4ADYANAAuAGUAZgBpAAAAf/8EAA==",
+        "event": "GDChvAAAAACIpycAAAAAAAAAAAAAAAAAOAAAAAAAAAAEBDQAXABFAEYASQBcAHUAYgB1AG4AdAB1AFwAZwByAHUAYgB4ADYANAAuAGUAZgBpAAAAf/8EAA==",
         "index": 2,
         "type": 2147483651,
         "type_name": "EV_EFI_BOOT_SERVICES_APPLICATION"
@@ -468,7 +508,7 @@
         "digests": [
           {
             "alg": "SHA-384",
-            "digest": "8f63391e6faf214bb9c32704904c86febabdf5bfbe7d339b03b9d2c047df8711d0461fa7f97b78cc545eaf328baabde3"
+            "digest": "20cadfbfa641cf30f90482b474eae1c5e79bc85a8ceaa2dfc56dc7ef7e55ecd3946238aa59f6c8345c01dd76a0f092dd"
           }
         ],
         "event": "KGhkMCxncHQxNSkvRUZJL3VidW50dS9ncnViLmNmZwA=",
@@ -478,16 +518,16 @@
       },
       {
         "details": {
-          "string": "grub_cmd: search.fs_uuid bdcbe209-a589-47c6-9311-aee61f3ef2de root"
+          "string": "grub_cmd: search.fs_uuid 765a4d12-8063-4f2e-a9f1-922db20f5cb4 root"
         },
         "digest_matches_event": false,
         "digests": [
           {
             "alg": "SHA-384",
-            "digest": "10094aff4c199cd5610a380ed9518261c21a25922a01244c73cb3a4a07cdf0ac6a923010f0d5b0eb03676bcc4fe9a610"
+            "digest": "cb601e34c62c2562e744233969994ef6ac808d4790d2eea16dee2643b37727ff37815682e80ccc623023b2699f3ffc20"
           }
         ],
-        "event": "Z3J1Yl9jbWQ6IHNlYXJjaC5mc191dWlkIGJkY2JlMjA5LWE1ODktNDdjNi05MzExLWFlZTYxZjNlZjJkZSByb290AA==",
+        "event": "Z3J1Yl9jbWQ6IHNlYXJjaC5mc191dWlkIDc2NWE0ZDEyLTgwNjMtNGYyZS1hOWYxLTkyMmRiMjBmNWNiNCByb290AA==",
         "index": 3,
         "type": 13,
         "type_name": "EV_IPL"
@@ -596,7 +636,7 @@
         "digests": [
           {
             "alg": "SHA-384",
-            "digest": "868dc8483a070da224102200677b7607f58224230b045bf18ef0b08c96cad7ffaa939c9f2f5f4be10d9cf93aa07b1626"
+            "digest": "f970caacf0862f447eca3fd16d97562074f6eb218d6c2b2c61f870a3fa9ba2296afa2b62a5c88d322c4dff9a67a49e4f"
           }
         ],
         "event": "KGhkMCxncHQxKS9ib290L2dydWIvZ3J1Yi5jZmcA",
@@ -1006,16 +1046,16 @@
       },
       {
         "details": {
-          "string": "grub_cmd: set partuuid=b051c61f-d3ef-4e82-9463-c46f2810d974"
+          "string": "grub_cmd: set partuuid=cd0b8144-d506-48a3-97b1-f1fffe2ba7dd"
         },
         "digest_matches_event": false,
         "digests": [
           {
             "alg": "SHA-384",
-            "digest": "32d9d32184133150a2119dc92dd5c52bc2eeb95d9c3b11873b7dea24fa2bdc6040266303e51b6dff832104ae0c321081"
+            "digest": "250b3c3d6682a545424bb96f69253c7581fcc677ad5e40bdf1dce62d4f9c3971d06098051cc5d578194c3ae029ac751e"
           }
         ],
-        "event": "Z3J1Yl9jbWQ6IHNldCBwYXJ0dXVpZD1iMDUxYzYxZi1kM2VmLTRlODItOTQ2My1jNDZmMjgxMGQ5NzQA",
+        "event": "Z3J1Yl9jbWQ6IHNldCBwYXJ0dXVpZD1jZDBiODE0NC1kNTA2LTQ4YTMtOTdiMS1mMWZmZmUyYmE3ZGQA",
         "index": 3,
         "type": 13,
         "type_name": "EV_IPL"
@@ -1102,48 +1142,32 @@
       },
       {
         "details": {
-          "string": "grub_cmd: menuentry Ubuntu --class ubuntu --class gnu-linux --class gnu --class os --id gnulinux-simple-bdcbe209-a589-47c6-9311-aee61f3ef2de {\n\trecordfail\n\tload_video\n\tgfxmode $linux_gfx_mode\n\tinsmod gzio\n\tif [ x$grub_platform = xxen ]; then insmod xzio; insmod lzopio; fi\n\tinsmod part_gpt\n\tinsmod ext2\n\tsearch --no-floppy --fs-uuid --set=root bdcbe209-a589-47c6-9311-aee61f3ef2de\n\tif [ \"${initrdfail}\" = 1 ]; then\n\t  echo\t'GRUB_FORCE_PARTUUID set, initrdless boot failed. Attempting with initrd.'\n\t  linux\t/boot/vmlinuz-6.8.0-1026-gcp root=PARTUUID=b051c61f-d3ef-4e82-9463-c46f2810d974 ro  console=ttyS0,115200\n\t  initrd\t/boot/initrd.img-6.8.0-1026-gcp\n\telse\n\t  echo\t'GRUB_FORCE_PARTUUID set, attempting initrdless boot.'\n\t  linux\t/boot/vmlinuz-6.8.0-1026-gcp root=PARTUUID=b051c61f-d3ef-4e82-9463-c46f2810d974 ro  console=ttyS0,115200 panic=-1\n\tfi\n\tinitrdfail\n}"
+          "string": "grub_cmd: menuentry Ubuntu --class ubuntu --class gnu-linux --class gnu --class os --id gnulinux-simple-765a4d12-8063-4f2e-a9f1-922db20f5cb4 {\n\trecordfail\n\tload_video\n\tgfxmode $linux_gfx_mode\n\tinsmod gzio\n\tif [ x$grub_platform = xxen ]; then insmod xzio; insmod lzopio; fi\n\tinsmod part_gpt\n\tinsmod ext2\n\tsearch --no-floppy --fs-uuid --set=root 765a4d12-8063-4f2e-a9f1-922db20f5cb4\n\tif [ \"${initrdfail}\" = 1 ]; then\n\t  echo\t'GRUB_FORCE_PARTUUID set, initrdless boot failed. Attempting with initrd.'\n\t  linux\t/boot/vmlinuz-6.8.0-1026-gcp root=PARTUUID=cd0b8144-d506-48a3-97b1-f1fffe2ba7dd ro  console=ttyS0,115200\n\t  initrd\t/boot/initrd.img-6.8.0-1026-gcp\n\telse\n\t  echo\t'GRUB_FORCE_PARTUUID set, attempting initrdless boot.'\n\t  linux\t/boot/vmlinuz-6.8.0-1026-gcp root=PARTUUID=cd0b8144-d506-48a3-97b1-f1fffe2ba7dd ro  console=ttyS0,115200 panic=-1\n\tfi\n\tinitrdfail\n}"
         },
         "digest_matches_event": false,
         "digests": [
           {
             "alg": "SHA-384",
-            "digest": "cf388a8bc0269001d99228c5d7646bff489a789da12ce14de7049fd9192afbca25a84a946897bb4b8fde4a54f66dcb0d"
+            "digest": "6402b62c9354853f31c374e19f383860cae33029810839c7e568bd5eec2706887b64daf2ab5199b0ed7af5d8e8b309ec"
           }
         ],
-        "event": "Z3J1Yl9jbWQ6IG1lbnVlbnRyeSBVYnVudHUgLS1jbGFzcyB1YnVudHUgLS1jbGFzcyBnbnUtbGludXggLS1jbGFzcyBnbnUgLS1jbGFzcyBvcyAtLWlkIGdudWxpbnV4LXNpbXBsZS1iZGNiZTIwOS1hNTg5LTQ3YzYtOTMxMS1hZWU2MWYzZWYyZGUgewoJcmVjb3JkZmFpbAoJbG9hZF92aWRlbwoJZ2Z4bW9kZSAkbGludXhfZ2Z4X21vZGUKCWluc21vZCBnemlvCglpZiBbIHgkZ3J1Yl9wbGF0Zm9ybSA9IHh4ZW4gXTsgdGhlbiBpbnNtb2QgeHppbzsgaW5zbW9kIGx6b3BpbzsgZmkKCWluc21vZCBwYXJ0X2dwdAoJaW5zbW9kIGV4dDIKCXNlYXJjaCAtLW5vLWZsb3BweSAtLWZzLXV1aWQgLS1zZXQ9cm9vdCBiZGNiZTIwOS1hNTg5LTQ3YzYtOTMxMS1hZWU2MWYzZWYyZGUKCWlmIFsgIiR7aW5pdHJkZmFpbH0iID0gMSBdOyB0aGVuCgkgIGVjaG8JJ0dSVUJfRk9SQ0VfUEFSVFVVSUQgc2V0LCBpbml0cmRsZXNzIGJvb3QgZmFpbGVkLiBBdHRlbXB0aW5nIHdpdGggaW5pdHJkLicKCSAgbGludXgJL2Jvb3Qvdm1saW51ei02LjguMC0xMDI2LWdjcCByb290PVBBUlRVVUlEPWIwNTFjNjFmLWQzZWYtNGU4Mi05NDYzLWM0NmYyODEwZDk3NCBybyAgY29uc29sZT10dHlTMCwxMTUyMDAKCSAgaW5pdHJkCS9ib290L2luaXRyZC5pbWctNi44LjAtMTAyNi1nY3AKCWVsc2UKCSAgZWNobwknR1JVQl9GT1JDRV9QQVJUVVVJRCBzZXQsIGF0dGVtcHRpbmcgaW5pdHJkbGVzcyBib290LicKCSAgbGludXgJL2Jvb3Qvdm1saW51ei02LjguMC0xMDI2LWdjcCByb290PVBBUlRVVUlEPWIwNTFjNjFmLWQzZWYtNGU4Mi05NDYzLWM0NmYyODEwZDk3NCBybyAgY29uc29sZT10dHlTMCwxMTUyMDAgcGFuaWM9LTEKCWZpCglpbml0cmRmYWlsCn0A",
+        "event": "Z3J1Yl9jbWQ6IG1lbnVlbnRyeSBVYnVudHUgLS1jbGFzcyB1YnVudHUgLS1jbGFzcyBnbnUtbGludXggLS1jbGFzcyBnbnUgLS1jbGFzcyBvcyAtLWlkIGdudWxpbnV4LXNpbXBsZS03NjVhNGQxMi04MDYzLTRmMmUtYTlmMS05MjJkYjIwZjVjYjQgewoJcmVjb3JkZmFpbAoJbG9hZF92aWRlbwoJZ2Z4bW9kZSAkbGludXhfZ2Z4X21vZGUKCWluc21vZCBnemlvCglpZiBbIHgkZ3J1Yl9wbGF0Zm9ybSA9IHh4ZW4gXTsgdGhlbiBpbnNtb2QgeHppbzsgaW5zbW9kIGx6b3BpbzsgZmkKCWluc21vZCBwYXJ0X2dwdAoJaW5zbW9kIGV4dDIKCXNlYXJjaCAtLW5vLWZsb3BweSAtLWZzLXV1aWQgLS1zZXQ9cm9vdCA3NjVhNGQxMi04MDYzLTRmMmUtYTlmMS05MjJkYjIwZjVjYjQKCWlmIFsgIiR7aW5pdHJkZmFpbH0iID0gMSBdOyB0aGVuCgkgIGVjaG8JJ0dSVUJfRk9SQ0VfUEFSVFVVSUQgc2V0LCBpbml0cmRsZXNzIGJvb3QgZmFpbGVkLiBBdHRlbXB0aW5nIHdpdGggaW5pdHJkLicKCSAgbGludXgJL2Jvb3Qvdm1saW51ei02LjguMC0xMDI2LWdjcCByb290PVBBUlRVVUlEPWNkMGI4MTQ0LWQ1MDYtNDhhMy05N2IxLWYxZmZmZTJiYTdkZCBybyAgY29uc29sZT10dHlTMCwxMTUyMDAKCSAgaW5pdHJkCS9ib290L2luaXRyZC5pbWctNi44LjAtMTAyNi1nY3AKCWVsc2UKCSAgZWNobwknR1JVQl9GT1JDRV9QQVJUVVVJRCBzZXQsIGF0dGVtcHRpbmcgaW5pdHJkbGVzcyBib290LicKCSAgbGludXgJL2Jvb3Qvdm1saW51ei02LjguMC0xMDI2LWdjcCByb290PVBBUlRVVUlEPWNkMGI4MTQ0LWQ1MDYtNDhhMy05N2IxLWYxZmZmZTJiYTdkZCBybyAgY29uc29sZT10dHlTMCwxMTUyMDAgcGFuaWM9LTEKCWZpCglpbml0cmRmYWlsCn0A",
         "index": 3,
         "type": 13,
         "type_name": "EV_IPL"
       },
       {
         "details": {
-          "string": "grub_cmd: submenu Advanced options for Ubuntu --id gnulinux-advanced-bdcbe209-a589-47c6-9311-aee61f3ef2de {\n\tmenuentry 'Ubuntu, with Linux 6.8.0-1026-gcp' --class ubuntu --class gnu-linux --class gnu --class os $menuentry_id_option 'gnulinux-6.8.0-1026-gcp-advanced-bdcbe209-a589-47c6-9311-aee61f3ef2de' {\n\t\trecordfail\n\t\tload_video\n\t\tgfxmode $linux_gfx_mode\n\t\tinsmod gzio\n\t\tif [ x$grub_platform = xxen ]; then insmod xzio; insmod lzopio; fi\n\t\tinsmod part_gpt\n\t\tinsmod ext2\n\t\tsearch --no-floppy --fs-uuid --set=root bdcbe209-a589-47c6-9311-aee61f3ef2de\n\t\techo\t'Loading Linux 6.8.0-1026-gcp ...'\n\t\tif [ \"${initrdfail}\" = 1 ]; then\n\t\t  echo\t'GRUB_FORCE_PARTUUID set, initrdless boot failed. Attempting with initrd.'\n\t\t  linux\t/boot/vmlinuz-6.8.0-1026-gcp root=PARTUUID=b051c61f-d3ef-4e82-9463-c46f2810d974 ro  console=ttyS0,115200\n\t\t  echo\t'Loading initial ramdisk ...'\n\t\t  initrd\t/boot/initrd.img-6.8.0-1026-gcp\n\t\telse\n\t\t  echo\t'GRUB_FORCE_PARTUUID set, attempting initrdless boot.'\n\t\t  linux\t/boot/vmlinuz-6.8.0-1026-gcp root=PARTUUID=b051c61f-d3ef-4e82-9463-c46f2810d974 ro  console=ttyS0,115200 panic=-1\n\t\tfi\n\t\tinitrdfail\n\t}\n\tmenuentry 'Ubuntu, with Linux 6.8.0-1026-gcp (recovery mode)' --class ubuntu --class gnu-linux --class gnu --class os $menuentry_id_option 'gnulinux-6.8.0-1026-gcp-recovery-bdcbe209-a589-47c6-9311-aee61f3ef2de' {\n\t\trecordfail\n\t\tload_video\n\t\tinsmod gzio\n\t\tif [ x$grub_platform = xxen ]; then insmod xzio; insmod lzopio; fi\n\t\tinsmod part_gpt\n\t\tinsmod ext2\n\t\tsearch --no-floppy --fs-uuid --set=root bdcbe209-a589-47c6-9311-aee61f3ef2de\n\t\techo\t'Loading Linux 6.8.0-1026-gcp ...'\n\t\tif [ \"${initrdfail}\" = 1 ]; then\n\t\t  echo\t'GRUB_FORCE_PARTUUID set, initrdless boot failed. Attempting with initrd.'\n\t\t  linux\t/boot/vmlinuz-6.8.0-1026-gcp root=PARTUUID=b051c61f-d3ef-4e82-9463-c46f2810d974 ro recovery nomodeset dis_ucode_ldr \n\t\t  echo\t'Loading initial ramdisk ...'\n\t\t  initrd\t/boot/initrd.img-6.8.0-1026-gcp\n\t\telse\n\t\t  echo\t'GRUB_FORCE_PARTUUID set, attempting initrdless boot.'\n\t\t  linux\t/boot/vmlinuz-6.8.0-1026-gcp root=PARTUUID=b051c61f-d3ef-4e82-9463-c46f2810d974 ro recovery nomodeset dis_ucode_ldr  panic=-1\n\t\tfi\n\t\tinitrdfail\n\t}\n\tmenuentry 'Ubuntu, with Linux 6.8.0-1025-gcp' --class ubuntu --class gnu-linux --class gnu --class os $menuentry_id_option 'gnulinux-6.8.0-1025-gcp-advanced-bdcbe209-a589-47c6-9311-aee61f3ef2de' {\n\t\trecordfail\n\t\tload_video\n\t\tgfxmode $linux_gfx_mode\n\t\tinsmod gzio\n\t\tif [ x$grub_platform = xxen ]; then insmod xzio; insmod lzopio; fi\n\t\tinsmod part_gpt\n\t\tinsmod ext2\n\t\tsearch --no-floppy --fs-uuid --set=root bdcbe209-a589-47c6-9311-aee61f3ef2de\n\t\techo\t'Loading Linux 6.8.0-1025-gcp ...'\n\t\tif [ \"${initrdfail}\" = 1 ]; then\n\t\t  echo\t'GRUB_FORCE_PARTUUID set, initrdless boot failed. Attempting with initrd.'\n\t\t  linux\t/boot/vmlinuz-6.8.0-1025-gcp root=PARTUUID=b051c61f-d3ef-4e82-9463-c46f2810d974 ro  console=ttyS0,115200\n\t\t  echo\t'Loading initial ramdisk ...'\n\t\t  initrd\t/boot/initrd.img-6.8.0-1025-gcp\n\t\telse\n\t\t  echo\t'GRUB_FORCE_PARTUUID set, attempting initrdless boot.'\n\t\t  linux\t/boot/vmlinuz-6.8.0-1025-gcp root=PARTUUID=b051c61f-d3ef-4e82-9463-c46f2810d974 ro  console=ttyS0,115200 panic=-1\n\t\tfi\n\t\tinitrdfail\n\t}\n\tmenuentry 'Ubuntu, with Linux 6.8.0-1025-gcp (recovery mode)' --class ubuntu --class gnu-linux --class gnu --class os $menuentry_id_option 'gnulinux-6.8.0-1025-gcp-recovery-bdcbe209-a589-47c6-9311-aee61f3ef2de' {\n\t\trecordfail\n\t\tload_video\n\t\tinsmod gzio\n\t\tif [ x$grub_platform = xxen ]; then insmod xzio; insmod lzopio; fi\n\t\tinsmod part_gpt\n\t\tinsmod ext2\n\t\tsearch --no-floppy --fs-uuid --set=root bdcbe209-a589-47c6-9311-aee61f3ef2de\n\t\techo\t'Loading Linux 6.8.0-1025-gcp ...'\n\t\tif [ \"${initrdfail}\" = 1 ]; then\n\t\t  echo\t'GRUB_FORCE_PARTUUID set, initrdless boot failed. Attempting with initrd.'\n\t\t  linux\t/boot/vmlinuz-6.8.0-1025-gcp root=PARTUUID=b051c61f-d3ef-4e82-9463-c46f2810d974 ro recovery nomodeset dis_ucode_ldr \n\t\t  echo\t'Loading initial ramdisk ...'\n\t\t  initrd\t/boot/initrd.img-6.8.0-1025-gcp\n\t\telse\n\t\t  echo\t'GRUB_FORCE_PARTUUID set, attempting initrdless boot.'\n\t\t  linux\t/boot/vmlinuz-6.8.0-1025-gcp root=PARTUUID=b051c61f-d3ef-4e82-9463-c46f2810d974 ro recovery nomodeset dis_ucode_ldr  panic=-1\n\t\tfi\n\t\tinitrdfail\n\t}\n}"
+          "string": "grub_cmd: submenu Advanced options for Ubuntu --id gnulinux-advanced-765a4d12-8063-4f2e-a9f1-922db20f5cb4 {\n\tmenuentry 'Ubuntu, with Linux 6.8.0-1026-gcp' --class ubuntu --class gnu-linux --class gnu --class os $menuentry_id_option 'gnulinux-6.8.0-1026-gcp-advanced-765a4d12-8063-4f2e-a9f1-922db20f5cb4' {\n\t\trecordfail\n\t\tload_video\n\t\tgfxmode $linux_gfx_mode\n\t\tinsmod gzio\n\t\tif [ x$grub_platform = xxen ]; then insmod xzio; insmod lzopio; fi\n\t\tinsmod part_gpt\n\t\tinsmod ext2\n\t\tsearch --no-floppy --fs-uuid --set=root 765a4d12-8063-4f2e-a9f1-922db20f5cb4\n\t\techo\t'Loading Linux 6.8.0-1026-gcp ...'\n\t\tif [ \"${initrdfail}\" = 1 ]; then\n\t\t  echo\t'GRUB_FORCE_PARTUUID set, initrdless boot failed. Attempting with initrd.'\n\t\t  linux\t/boot/vmlinuz-6.8.0-1026-gcp root=PARTUUID=cd0b8144-d506-48a3-97b1-f1fffe2ba7dd ro  console=ttyS0,115200\n\t\t  echo\t'Loading initial ramdisk ...'\n\t\t  initrd\t/boot/initrd.img-6.8.0-1026-gcp\n\t\telse\n\t\t  echo\t'GRUB_FORCE_PARTUUID set, attempting initrdless boot.'\n\t\t  linux\t/boot/vmlinuz-6.8.0-1026-gcp root=PARTUUID=cd0b8144-d506-48a3-97b1-f1fffe2ba7dd ro  console=ttyS0,115200 panic=-1\n\t\tfi\n\t\tinitrdfail\n\t}\n\tmenuentry 'Ubuntu, with Linux 6.8.0-1026-gcp (recovery mode)' --class ubuntu --class gnu-linux --class gnu --class os $menuentry_id_option 'gnulinux-6.8.0-1026-gcp-recovery-765a4d12-8063-4f2e-a9f1-922db20f5cb4' {\n\t\trecordfail\n\t\tload_video\n\t\tinsmod gzio\n\t\tif [ x$grub_platform = xxen ]; then insmod xzio; insmod lzopio; fi\n\t\tinsmod part_gpt\n\t\tinsmod ext2\n\t\tsearch --no-floppy --fs-uuid --set=root 765a4d12-8063-4f2e-a9f1-922db20f5cb4\n\t\techo\t'Loading Linux 6.8.0-1026-gcp ...'\n\t\tif [ \"${initrdfail}\" = 1 ]; then\n\t\t  echo\t'GRUB_FORCE_PARTUUID set, initrdless boot failed. Attempting with initrd.'\n\t\t  linux\t/boot/vmlinuz-6.8.0-1026-gcp root=PARTUUID=cd0b8144-d506-48a3-97b1-f1fffe2ba7dd ro recovery nomodeset dis_ucode_ldr \n\t\t  echo\t'Loading initial ramdisk ...'\n\t\t  initrd\t/boot/initrd.img-6.8.0-1026-gcp\n\t\telse\n\t\t  echo\t'GRUB_FORCE_PARTUUID set, attempting initrdless boot.'\n\t\t  linux\t/boot/vmlinuz-6.8.0-1026-gcp root=PARTUUID=cd0b8144-d506-48a3-97b1-f1fffe2ba7dd ro recovery nomodeset dis_ucode_ldr  panic=-1\n\t\tfi\n\t\tinitrdfail\n\t}\n}"
         },
         "digest_matches_event": false,
         "digests": [
           {
             "alg": "SHA-384",
-            "digest": "9ac3194ef8aa633e621124aafc6fe1414702cff0dfd505383fd629829ebabc1ca7017b7317f3d0379cdf293f77f4107f"
+            "digest": "b0c9c2100e61aef8abc9396b5f29c8cc84659b76467957e5806dc7932454047cfeee7f6c843dd63ff6dad2f3183fcf28"
           }
         ],
-        "event": "Z3J1Yl9jbWQ6IHN1Ym1lbnUgQWR2YW5jZWQgb3B0aW9ucyBmb3IgVWJ1bnR1IC0taWQgZ251bGludXgtYWR2YW5jZWQtYmRjYmUyMDktYTU4OS00N2M2LTkzMTEtYWVlNjFmM2VmMmRlIHsKCW1lbnVlbnRyeSAnVWJ1bnR1LCB3aXRoIExpbnV4IDYuOC4wLTEwMjYtZ2NwJyAtLWNsYXNzIHVidW50dSAtLWNsYXNzIGdudS1saW51eCAtLWNsYXNzIGdudSAtLWNsYXNzIG9zICRtZW51ZW50cnlfaWRfb3B0aW9uICdnbnVsaW51eC02LjguMC0xMDI2LWdjcC1hZHZhbmNlZC1iZGNiZTIwOS1hNTg5LTQ3YzYtOTMxMS1hZWU2MWYzZWYyZGUnIHsKCQlyZWNvcmRmYWlsCgkJbG9hZF92aWRlbwoJCWdmeG1vZGUgJGxpbnV4X2dmeF9tb2RlCgkJaW5zbW9kIGd6aW8KCQlpZiBbIHgkZ3J1Yl9wbGF0Zm9ybSA9IHh4ZW4gXTsgdGhlbiBpbnNtb2QgeHppbzsgaW5zbW9kIGx6b3BpbzsgZmkKCQlpbnNtb2QgcGFydF9ncHQKCQlpbnNtb2QgZXh0MgoJCXNlYXJjaCAtLW5vLWZsb3BweSAtLWZzLXV1aWQgLS1zZXQ9cm9vdCBiZGNiZTIwOS1hNTg5LTQ3YzYtOTMxMS1hZWU2MWYzZWYyZGUKCQllY2hvCSdMb2FkaW5nIExpbnV4IDYuOC4wLTEwMjYtZ2NwIC4uLicKCQlpZiBbICIke2luaXRyZGZhaWx9IiA9IDEgXTsgdGhlbgoJCSAgZWNobwknR1JVQl9GT1JDRV9QQVJUVVVJRCBzZXQsIGluaXRyZGxlc3MgYm9vdCBmYWlsZWQuIEF0dGVtcHRpbmcgd2l0aCBpbml0cmQuJwoJCSAgbGludXgJL2Jvb3Qvdm1saW51ei02LjguMC0xMDI2LWdjcCByb290PVBBUlRVVUlEPWIwNTFjNjFmLWQzZWYtNGU4Mi05NDYzLWM0NmYyODEwZDk3NCBybyAgY29uc29sZT10dHlTMCwxMTUyMDAKCQkgIGVjaG8JJ0xvYWRpbmcgaW5pdGlhbCByYW1kaXNrIC4uLicKCQkgIGluaXRyZAkvYm9vdC9pbml0cmQuaW1nLTYuOC4wLTEwMjYtZ2NwCgkJZWxzZQoJCSAgZWNobwknR1JVQl9GT1JDRV9QQVJUVVVJRCBzZXQsIGF0dGVtcHRpbmcgaW5pdHJkbGVzcyBib290LicKCQkgIGxpbnV4CS9ib290L3ZtbGludXotNi44LjAtMTAyNi1nY3Agcm9vdD1QQVJUVVVJRD1iMDUxYzYxZi1kM2VmLTRlODItOTQ2My1jNDZmMjgxMGQ5NzQgcm8gIGNvbnNvbGU9dHR5UzAsMTE1MjAwIHBhbmljPS0xCgkJZmkKCQlpbml0cmRmYWlsCgl9CgltZW51ZW50cnkgJ1VidW50dSwgd2l0aCBMaW51eCA2LjguMC0xMDI2LWdjcCAocmVjb3ZlcnkgbW9kZSknIC0tY2xhc3MgdWJ1bnR1IC0tY2xhc3MgZ251LWxpbnV4IC0tY2xhc3MgZ251IC0tY2xhc3Mgb3MgJG1lbnVlbnRyeV9pZF9vcHRpb24gJ2dudWxpbnV4LTYuOC4wLTEwMjYtZ2NwLXJlY292ZXJ5LWJkY2JlMjA5LWE1ODktNDdjNi05MzExLWFlZTYxZjNlZjJkZScgewoJCXJlY29yZGZhaWwKCQlsb2FkX3ZpZGVvCgkJaW5zbW9kIGd6aW8KCQlpZiBbIHgkZ3J1Yl9wbGF0Zm9ybSA9IHh4ZW4gXTsgdGhlbiBpbnNtb2QgeHppbzsgaW5zbW9kIGx6b3BpbzsgZmkKCQlpbnNtb2QgcGFydF9ncHQKCQlpbnNtb2QgZXh0MgoJCXNlYXJjaCAtLW5vLWZsb3BweSAtLWZzLXV1aWQgLS1zZXQ9cm9vdCBiZGNiZTIwOS1hNTg5LTQ3YzYtOTMxMS1hZWU2MWYzZWYyZGUKCQllY2hvCSdMb2FkaW5nIExpbnV4IDYuOC4wLTEwMjYtZ2NwIC4uLicKCQlpZiBbICIke2luaXRyZGZhaWx9IiA9IDEgXTsgdGhlbgoJCSAgZWNobwknR1JVQl9GT1JDRV9QQVJUVVVJRCBzZXQsIGluaXRyZGxlc3MgYm9vdCBmYWlsZWQuIEF0dGVtcHRpbmcgd2l0aCBpbml0cmQuJwoJCSAgbGludXgJL2Jvb3Qvdm1saW51ei02LjguMC0xMDI2LWdjcCByb290PVBBUlRVVUlEPWIwNTFjNjFmLWQzZWYtNGU4Mi05NDYzLWM0NmYyODEwZDk3NCBybyByZWNvdmVyeSBub21vZGVzZXQgZGlzX3Vjb2RlX2xkciAKCQkgIGVjaG8JJ0xvYWRpbmcgaW5pdGlhbCByYW1kaXNrIC4uLicKCQkgIGluaXRyZAkvYm9vdC9pbml0cmQuaW1nLTYuOC4wLTEwMjYtZ2NwCgkJZWxzZQoJCSAgZWNobwknR1JVQl9GT1JDRV9QQVJUVVVJRCBzZXQsIGF0dGVtcHRpbmcgaW5pdHJkbGVzcyBib290LicKCQkgIGxpbnV4CS9ib290L3ZtbGludXotNi44LjAtMTAyNi1nY3Agcm9vdD1QQVJUVVVJRD1iMDUxYzYxZi1kM2VmLTRlODItOTQ2My1jNDZmMjgxMGQ5NzQgcm8gcmVjb3Zlcnkgbm9tb2Rlc2V0IGRpc191Y29kZV9sZHIgIHBhbmljPS0xCgkJZmkKCQlpbml0cmRmYWlsCgl9CgltZW51ZW50cnkgJ1VidW50dSwgd2l0aCBMaW51eCA2LjguMC0xMDI1LWdjcCcgLS1jbGFzcyB1YnVudHUgLS1jbGFzcyBnbnUtbGludXggLS1jbGFzcyBnbnUgLS1jbGFzcyBvcyAkbWVudWVudHJ5X2lkX29wdGlvbiAnZ251bGludXgtNi44LjAtMTAyNS1nY3AtYWR2YW5jZWQtYmRjYmUyMDktYTU4OS00N2M2LTkzMTEtYWVlNjFmM2VmMmRlJyB7CgkJcmVjb3JkZmFpbAoJCWxvYWRfdmlkZW8KCQlnZnhtb2RlICRsaW51eF9nZnhfbW9kZQoJCWluc21vZCBnemlvCgkJaWYgWyB4JGdydWJfcGxhdGZvcm0gPSB4eGVuIF07IHRoZW4gaW5zbW9kIHh6aW87IGluc21vZCBsem9waW87IGZpCgkJaW5zbW9kIHBhcnRfZ3B0CgkJaW5zbW9kIGV4dDIKCQlzZWFyY2ggLS1uby1mbG9wcHkgLS1mcy11dWlkIC0tc2V0PXJvb3QgYmRjYmUyMDktYTU4OS00N2M2LTkzMTEtYWVlNjFmM2VmMmRlCgkJZWNobwknTG9hZGluZyBMaW51eCA2LjguMC0xMDI1LWdjcCAuLi4nCgkJaWYgWyAiJHtpbml0cmRmYWlsfSIgPSAxIF07IHRoZW4KCQkgIGVjaG8JJ0dSVUJfRk9SQ0VfUEFSVFVVSUQgc2V0LCBpbml0cmRsZXNzIGJvb3QgZmFpbGVkLiBBdHRlbXB0aW5nIHdpdGggaW5pdHJkLicKCQkgIGxpbnV4CS9ib290L3ZtbGludXotNi44LjAtMTAyNS1nY3Agcm9vdD1QQVJUVVVJRD1iMDUxYzYxZi1kM2VmLTRlODItOTQ2My1jNDZmMjgxMGQ5NzQgcm8gIGNvbnNvbGU9dHR5UzAsMTE1MjAwCgkJICBlY2hvCSdMb2FkaW5nIGluaXRpYWwgcmFtZGlzayAuLi4nCgkJICBpbml0cmQJL2Jvb3QvaW5pdHJkLmltZy02LjguMC0xMDI1LWdjcAoJCWVsc2UKCQkgIGVjaG8JJ0dSVUJfRk9SQ0VfUEFSVFVVSUQgc2V0LCBhdHRlbXB0aW5nIGluaXRyZGxlc3MgYm9vdC4nCgkJICBsaW51eAkvYm9vdC92bWxpbnV6LTYuOC4wLTEwMjUtZ2NwIHJvb3Q9UEFSVFVVSUQ9YjA1MWM2MWYtZDNlZi00ZTgyLTk0NjMtYzQ2ZjI4MTBkOTc0IHJvICBjb25zb2xlPXR0eVMwLDExNTIwMCBwYW5pYz0tMQoJCWZpCgkJaW5pdHJkZmFpbAoJfQoJbWVudWVudHJ5ICdVYnVudHUsIHdpdGggTGludXggNi44LjAtMTAyNS1nY3AgKHJlY292ZXJ5IG1vZGUpJyAtLWNsYXNzIHVidW50dSAtLWNsYXNzIGdudS1saW51eCAtLWNsYXNzIGdudSAtLWNsYXNzIG9zICRtZW51ZW50cnlfaWRfb3B0aW9uICdnbnVsaW51eC02LjguMC0xMDI1LWdjcC1yZWNvdmVyeS1iZGNiZTIwOS1hNTg5LTQ3YzYtOTMxMS1hZWU2MWYzZWYyZGUnIHsKCQlyZWNvcmRmYWlsCgkJbG9hZF92aWRlbwoJCWluc21vZCBnemlvCgkJaWYgWyB4JGdydWJfcGxhdGZvcm0gPSB4eGVuIF07IHRoZW4gaW5zbW9kIHh6aW87IGluc21vZCBsem9waW87IGZpCgkJaW5zbW9kIHBhcnRfZ3B0CgkJaW5zbW9kIGV4dDIKCQlzZWFyY2ggLS1uby1mbG9wcHkgLS1mcy11dWlkIC0tc2V0PXJvb3QgYmRjYmUyMDktYTU4OS00N2M2LTkzMTEtYWVlNjFmM2VmMmRlCgkJZWNobwknTG9hZGluZyBMaW51eCA2LjguMC0xMDI1LWdjcCAuLi4nCgkJaWYgWyAiJHtpbml0cmRmYWlsfSIgPSAxIF07IHRoZW4KCQkgIGVjaG8JJ0dSVUJfRk9SQ0VfUEFSVFVVSUQgc2V0LCBpbml0cmRsZXNzIGJvb3QgZmFpbGVkLiBBdHRlbXB0aW5nIHdpdGggaW5pdHJkLicKCQkgIGxpbnV4CS9ib290L3ZtbGludXotNi44LjAtMTAyNS1nY3Agcm9vdD1QQVJUVVVJRD1iMDUxYzYxZi1kM2VmLTRlODItOTQ2My1jNDZmMjgxMGQ5NzQgcm8gcmVjb3Zlcnkgbm9tb2Rlc2V0IGRpc191Y29kZV9sZHIgCgkJICBlY2hvCSdMb2FkaW5nIGluaXRpYWwgcmFtZGlzayAuLi4nCgkJICBpbml0cmQJL2Jvb3QvaW5pdHJkLmltZy02LjguMC0xMDI1LWdjcAoJCWVsc2UKCQkgIGVjaG8JJ0dSVUJfRk9SQ0VfUEFSVFVVSUQgc2V0LCBhdHRlbXB0aW5nIGluaXRyZGxlc3MgYm9vdC4nCgkJICBsaW51eAkvYm9vdC92bWxpbnV6LTYuOC4wLTEwMjUtZ2NwIHJvb3Q9UEFSVFVVSUQ9YjA1MWM2MWYtZDNlZi00ZTgyLTk0NjMtYzQ2ZjI4MTBkOTc0IHJvIHJlY292ZXJ5IG5vbW9kZXNldCBkaXNfdWNvZGVfbGRyICBwYW5pYz0tMQoJCWZpCgkJaW5pdHJkZmFpbAoJfQp9AA==",
-        "index": 3,
-        "type": 13,
-        "type_name": "EV_IPL"
-      },
-      {
-        "details": {
-          "string": "grub_cmd: menuentry UEFI Firmware Settings --id uefi-firmware {\n\tfwsetup\n}"
-        },
-        "digest_matches_event": false,
-        "digests": [
-          {
-            "alg": "SHA-384",
-            "digest": "c30a0e3a9357f2867ae466fcf0d5023c62a237d41b125316aac3bf39d5f5229792d7da9b42602e4770453834fcc28bea"
-          }
-        ],
-        "event": "Z3J1Yl9jbWQ6IG1lbnVlbnRyeSBVRUZJIEZpcm13YXJlIFNldHRpbmdzIC0taWQgdWVmaS1maXJtd2FyZSB7Cglmd3NldHVwCn0A",
+        "event": "Z3J1Yl9jbWQ6IHN1Ym1lbnUgQWR2YW5jZWQgb3B0aW9ucyBmb3IgVWJ1bnR1IC0taWQgZ251bGludXgtYWR2YW5jZWQtNzY1YTRkMTItODA2My00ZjJlLWE5ZjEtOTIyZGIyMGY1Y2I0IHsKCW1lbnVlbnRyeSAnVWJ1bnR1LCB3aXRoIExpbnV4IDYuOC4wLTEwMjYtZ2NwJyAtLWNsYXNzIHVidW50dSAtLWNsYXNzIGdudS1saW51eCAtLWNsYXNzIGdudSAtLWNsYXNzIG9zICRtZW51ZW50cnlfaWRfb3B0aW9uICdnbnVsaW51eC02LjguMC0xMDI2LWdjcC1hZHZhbmNlZC03NjVhNGQxMi04MDYzLTRmMmUtYTlmMS05MjJkYjIwZjVjYjQnIHsKCQlyZWNvcmRmYWlsCgkJbG9hZF92aWRlbwoJCWdmeG1vZGUgJGxpbnV4X2dmeF9tb2RlCgkJaW5zbW9kIGd6aW8KCQlpZiBbIHgkZ3J1Yl9wbGF0Zm9ybSA9IHh4ZW4gXTsgdGhlbiBpbnNtb2QgeHppbzsgaW5zbW9kIGx6b3BpbzsgZmkKCQlpbnNtb2QgcGFydF9ncHQKCQlpbnNtb2QgZXh0MgoJCXNlYXJjaCAtLW5vLWZsb3BweSAtLWZzLXV1aWQgLS1zZXQ9cm9vdCA3NjVhNGQxMi04MDYzLTRmMmUtYTlmMS05MjJkYjIwZjVjYjQKCQllY2hvCSdMb2FkaW5nIExpbnV4IDYuOC4wLTEwMjYtZ2NwIC4uLicKCQlpZiBbICIke2luaXRyZGZhaWx9IiA9IDEgXTsgdGhlbgoJCSAgZWNobwknR1JVQl9GT1JDRV9QQVJUVVVJRCBzZXQsIGluaXRyZGxlc3MgYm9vdCBmYWlsZWQuIEF0dGVtcHRpbmcgd2l0aCBpbml0cmQuJwoJCSAgbGludXgJL2Jvb3Qvdm1saW51ei02LjguMC0xMDI2LWdjcCByb290PVBBUlRVVUlEPWNkMGI4MTQ0LWQ1MDYtNDhhMy05N2IxLWYxZmZmZTJiYTdkZCBybyAgY29uc29sZT10dHlTMCwxMTUyMDAKCQkgIGVjaG8JJ0xvYWRpbmcgaW5pdGlhbCByYW1kaXNrIC4uLicKCQkgIGluaXRyZAkvYm9vdC9pbml0cmQuaW1nLTYuOC4wLTEwMjYtZ2NwCgkJZWxzZQoJCSAgZWNobwknR1JVQl9GT1JDRV9QQVJUVVVJRCBzZXQsIGF0dGVtcHRpbmcgaW5pdHJkbGVzcyBib290LicKCQkgIGxpbnV4CS9ib290L3ZtbGludXotNi44LjAtMTAyNi1nY3Agcm9vdD1QQVJUVVVJRD1jZDBiODE0NC1kNTA2LTQ4YTMtOTdiMS1mMWZmZmUyYmE3ZGQgcm8gIGNvbnNvbGU9dHR5UzAsMTE1MjAwIHBhbmljPS0xCgkJZmkKCQlpbml0cmRmYWlsCgl9CgltZW51ZW50cnkgJ1VidW50dSwgd2l0aCBMaW51eCA2LjguMC0xMDI2LWdjcCAocmVjb3ZlcnkgbW9kZSknIC0tY2xhc3MgdWJ1bnR1IC0tY2xhc3MgZ251LWxpbnV4IC0tY2xhc3MgZ251IC0tY2xhc3Mgb3MgJG1lbnVlbnRyeV9pZF9vcHRpb24gJ2dudWxpbnV4LTYuOC4wLTEwMjYtZ2NwLXJlY292ZXJ5LTc2NWE0ZDEyLTgwNjMtNGYyZS1hOWYxLTkyMmRiMjBmNWNiNCcgewoJCXJlY29yZGZhaWwKCQlsb2FkX3ZpZGVvCgkJaW5zbW9kIGd6aW8KCQlpZiBbIHgkZ3J1Yl9wbGF0Zm9ybSA9IHh4ZW4gXTsgdGhlbiBpbnNtb2QgeHppbzsgaW5zbW9kIGx6b3BpbzsgZmkKCQlpbnNtb2QgcGFydF9ncHQKCQlpbnNtb2QgZXh0MgoJCXNlYXJjaCAtLW5vLWZsb3BweSAtLWZzLXV1aWQgLS1zZXQ9cm9vdCA3NjVhNGQxMi04MDYzLTRmMmUtYTlmMS05MjJkYjIwZjVjYjQKCQllY2hvCSdMb2FkaW5nIExpbnV4IDYuOC4wLTEwMjYtZ2NwIC4uLicKCQlpZiBbICIke2luaXRyZGZhaWx9IiA9IDEgXTsgdGhlbgoJCSAgZWNobwknR1JVQl9GT1JDRV9QQVJUVVVJRCBzZXQsIGluaXRyZGxlc3MgYm9vdCBmYWlsZWQuIEF0dGVtcHRpbmcgd2l0aCBpbml0cmQuJwoJCSAgbGludXgJL2Jvb3Qvdm1saW51ei02LjguMC0xMDI2LWdjcCByb290PVBBUlRVVUlEPWNkMGI4MTQ0LWQ1MDYtNDhhMy05N2IxLWYxZmZmZTJiYTdkZCBybyByZWNvdmVyeSBub21vZGVzZXQgZGlzX3Vjb2RlX2xkciAKCQkgIGVjaG8JJ0xvYWRpbmcgaW5pdGlhbCByYW1kaXNrIC4uLicKCQkgIGluaXRyZAkvYm9vdC9pbml0cmQuaW1nLTYuOC4wLTEwMjYtZ2NwCgkJZWxzZQoJCSAgZWNobwknR1JVQl9GT1JDRV9QQVJUVVVJRCBzZXQsIGF0dGVtcHRpbmcgaW5pdHJkbGVzcyBib290LicKCQkgIGxpbnV4CS9ib290L3ZtbGludXotNi44LjAtMTAyNi1nY3Agcm9vdD1QQVJUVVVJRD1jZDBiODE0NC1kNTA2LTQ4YTMtOTdiMS1mMWZmZmUyYmE3ZGQgcm8gcmVjb3Zlcnkgbm9tb2Rlc2V0IGRpc191Y29kZV9sZHIgIHBhbmljPS0xCgkJZmkKCQlpbml0cmRmYWlsCgl9Cn0A",
         "index": 3,
         "type": 13,
         "type_name": "EV_IPL"
@@ -1454,16 +1478,16 @@
       },
       {
         "details": {
-          "string": "grub_cmd: search --no-floppy --fs-uuid --set=root bdcbe209-a589-47c6-9311-aee61f3ef2de"
+          "string": "grub_cmd: search --no-floppy --fs-uuid --set=root 765a4d12-8063-4f2e-a9f1-922db20f5cb4"
         },
         "digest_matches_event": false,
         "digests": [
           {
             "alg": "SHA-384",
-            "digest": "eb2f0231f16edbbb4d561a8115ef3a7049386e2bcb7dd419e2d6cce15bb931a7f1693cbe05daea0e128798161b30c157"
+            "digest": "bdb3bbea856239f976beb735afc51edbce76e2a5c01fbcf2a43af78f0ed34d089d7b033b774664c44d1ebc6fa165ed50"
           }
         ],
-        "event": "Z3J1Yl9jbWQ6IHNlYXJjaCAtLW5vLWZsb3BweSAtLWZzLXV1aWQgLS1zZXQ9cm9vdCBiZGNiZTIwOS1hNTg5LTQ3YzYtOTMxMS1hZWU2MWYzZWYyZGUA",
+        "event": "Z3J1Yl9jbWQ6IHNlYXJjaCAtLW5vLWZsb3BweSAtLWZzLXV1aWQgLS1zZXQ9cm9vdCA3NjVhNGQxMi04MDYzLTRmMmUtYTlmMS05MjJkYjIwZjVjYjQA",
         "index": 3,
         "type": 13,
         "type_name": "EV_IPL"
@@ -1502,16 +1526,16 @@
       },
       {
         "details": {
-          "string": "grub_cmd: linux /boot/vmlinuz-6.8.0-1026-gcp root=PARTUUID=b051c61f-d3ef-4e82-9463-c46f2810d974 ro console=ttyS0,115200 panic=-1"
+          "string": "grub_cmd: linux /boot/vmlinuz-6.8.0-1026-gcp root=PARTUUID=cd0b8144-d506-48a3-97b1-f1fffe2ba7dd ro console=ttyS0,115200 panic=-1"
         },
         "digest_matches_event": false,
         "digests": [
           {
             "alg": "SHA-384",
-            "digest": "90e86147e761a9950260b4226f19feeb4b30c4241a39d57d555c322bfdddb9bd665246c6b7e147711366b5ef193f11ea"
+            "digest": "2c7536c6c25811865462292949e4793304b4ebf81b4137c60c28b6712e94c8ec410ec5ccd9e301168f117c2e4434f007"
           }
         ],
-        "event": "Z3J1Yl9jbWQ6IGxpbnV4IC9ib290L3ZtbGludXotNi44LjAtMTAyNi1nY3Agcm9vdD1QQVJUVVVJRD1iMDUxYzYxZi1kM2VmLTRlODItOTQ2My1jNDZmMjgxMGQ5NzQgcm8gY29uc29sZT10dHlTMCwxMTUyMDAgcGFuaWM9LTEA",
+        "event": "Z3J1Yl9jbWQ6IGxpbnV4IC9ib290L3ZtbGludXotNi44LjAtMTAyNi1nY3Agcm9vdD1QQVJUVVVJRD1jZDBiODE0NC1kNTA2LTQ4YTMtOTdiMS1mMWZmZmUyYmE3ZGQgcm8gY29uc29sZT10dHlTMCwxMTUyMDAgcGFuaWM9LTEA",
         "index": 3,
         "type": 13,
         "type_name": "EV_IPL"
@@ -1534,16 +1558,32 @@
       },
       {
         "details": {
-          "string": "kernel_cmdline: /boot/vmlinuz-6.8.0-1026-gcp root=PARTUUID=b051c61f-d3ef-4e82-9463-c46f2810d974 ro console=ttyS0,115200 panic=-1"
+          "device_paths": null
         },
         "digest_matches_event": false,
         "digests": [
           {
             "alg": "SHA-384",
-            "digest": "2cab16eb262d4211edbe660db40f218466898898a07ba739a51d28e7585e5777d906a8c3399439c9b346fbe55c829826"
+            "digest": "dbed3b4f6a1cf90d91bd5fa9ca334859e04c1728e370f18f51af75198db0a7bcaa1359d6e8788fbd73530309788f86b2"
           }
         ],
-        "event": "a2VybmVsX2NtZGxpbmU6IC9ib290L3ZtbGludXotNi44LjAtMTAyNi1nY3Agcm9vdD1QQVJUVVVJRD1iMDUxYzYxZi1kM2VmLTRlODItOTQ2My1jNDZmMjgxMGQ5NzQgcm8gY29uc29sZT10dHlTMCwxMTUyMDAgcGFuaWM9LTEA",
+        "event": "4PSjfgAAAACIOeYAAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+        "index": 2,
+        "type": 2147483651,
+        "type_name": "EV_EFI_BOOT_SERVICES_APPLICATION"
+      },
+      {
+        "details": {
+          "string": "kernel_cmdline: /boot/vmlinuz-6.8.0-1026-gcp root=PARTUUID=cd0b8144-d506-48a3-97b1-f1fffe2ba7dd ro console=ttyS0,115200 panic=-1"
+        },
+        "digest_matches_event": false,
+        "digests": [
+          {
+            "alg": "SHA-384",
+            "digest": "fa8c99526fe630d5d7389b4b7e556472b0774ae9291480cbe4fc48dba95b280ef3aada6f6ffb7311a17c64995d624942"
+          }
+        ],
+        "event": "a2VybmVsX2NtZGxpbmU6IC9ib290L3ZtbGludXotNi44LjAtMTAyNi1nY3Agcm9vdD1QQVJUVVVJRD1jZDBiODE0NC1kNTA2LTQ4YTMtOTdiMS1mMWZmZmUyYmE3ZGQgcm8gY29uc29sZT10dHlTMCwxMTUyMDAgcGFuaWM9LTEA",
         "index": 3,
         "type": 13,
         "type_name": "EV_IPL"
@@ -1582,16 +1622,16 @@
       },
       {
         "details": {
-          "string": "grub_cmd: [ -n b051c61f-d3ef-4e82-9463-c46f2810d974 ]"
+          "string": "grub_cmd: [ -n cd0b8144-d506-48a3-97b1-f1fffe2ba7dd ]"
         },
         "digest_matches_event": false,
         "digests": [
           {
             "alg": "SHA-384",
-            "digest": "0e27b7546508842ba0a904aa530d71a6a77c3e63b07b85bdd0ffba62a8a8a9606f99e40030bb1363034fc4dc6afb93c0"
+            "digest": "9e9f4fb0c2128b85d0981d9c7982724a0ae1965522e0228655d897f5a3432a4ac8e0507145f824c51cbbbcaf9ad175c0"
           }
         ],
-        "event": "Z3J1Yl9jbWQ6IFsgLW4gYjA1MWM2MWYtZDNlZi00ZTgyLTk0NjMtYzQ2ZjI4MTBkOTc0IF0A",
+        "event": "Z3J1Yl9jbWQ6IFsgLW4gY2QwYjgxNDQtZDUwNi00OGEzLTk3YjEtZjFmZmZlMmJhN2RkIF0A",
         "index": 3,
         "type": 13,
         "type_name": "EV_IPL"
@@ -1696,16 +1736,16 @@
   },
   "ver": "2.0.0",
   "verifier_instance_ids": [
-    "77fc7718-b2e6-41c1-b692-19154ba7bc61",
-    "f4de8ea4-f174-4127-a853-6d80dc969f79",
-    "13e0adf3-08b3-4312-b68f-ac9844105b33",
-    "5672a54e-eae7-4a43-94dd-1a47f4cae9ec",
-    "624a4f4b-ba94-4606-bfd0-ab829d09f982",
-    "90fd1b82-5d7e-40bf-8899-d73af0b7ee4c"
+    "33d1edf9-940d-4e27-9197-1bfeef9a3c26",
+    "942cee4a-8956-4864-a4b1-03c083daf7bb",
+    "f24b6d83-e2ca-46d1-8d08-086721eccea0",
+    "d7a2ad93-e004-4fc0-b117-75bc68dd453a",
+    "fe175229-7740-4f55-89de-7a96910825af",
+    "449ef64d-8fe3-4755-a177-19d841bd5d7e"
   ],
-  "exp": 1744723496,
-  "jti": "6752160d-9e2c-44a6-b345-fce5ea9612d0",
-  "iat": 1744723196,
+  "exp": 1744728952,
+  "jti": "d08b0395-cd94-45b0-88e1-3bad508d9560",
+  "iat": 1744728652,
   "iss": "https://portal.pilot.trustauthority.intel.com",
-  "nbf": 1744723196
+  "nbf": 1744728652
 }
