@@ -9,7 +9,8 @@ gcloud compute instances create my-gcp-tdx-cvm1 \
     --image-family=ubuntu-2204-lts \
     --image-project=ubuntu-os-cloud \
     --zone us-central1-a \
-    --maintenance-policy=TERMINATE" \
+    --maintenance-policy=TERMINATE \
+    --shielded-secure-boot \
     --project my-project-name
 ```
 
