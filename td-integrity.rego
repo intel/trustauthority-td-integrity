@@ -40,7 +40,7 @@
 #    reference value.
 #  - If the evidence's event-log (CCEL or vTPM) does not match one of the provided "kernel_digests"
 #    reference values, TDI's appraisal_result.kernel object will be empty (i.e., "{}").  Otherwise,
-#    the appraisal_result.kernel object will include the key/value pair from the mathing 
+#    the appraisal_result.kernel object will include the key/value pair from the matching 
 #    "kernel_digests" reference value.
 #  - When the evidence does not contain CCEL/vTPM event-logs, the appraisal_result.secure_boot 
 #    will be "unknown".  If the event-logs are present and the secure boot variable event cannot 
