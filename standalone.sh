@@ -20,6 +20,11 @@ fi
 
 cp ${EXAMPLE_REGO} ${OUTPUT_FILE}
 cat ${TD_INTEGRITY_REGO} >> ${OUTPUT_FILE}
+
+# remove duplicate "import rego.v1" statements
+awk '/^import rego.v1/ {if (++n == 1) print; next} {print}' ${OUTPUT_FILE} > awk.tmp
+mv awk.tmp ${OUTPUT_FILE} 
+
 sed -i '/^package/ s/^/#/' ${OUTPUT_FILE}   # comment out package statements
 sed -i '/^my_reference_values/ s/^/#/' ${OUTPUT_FILE}   # comment out "my_reference_values" 
 sed -i 's/\(:= *\)[a-zA-Z0-9_.]*\.\(appraisal_results(my_reference_values)\)/\1\2/' ${OUTPUT_FILE}
