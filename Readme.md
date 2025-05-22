@@ -8,8 +8,8 @@ The following prerequisites are needed to collect TD Integrity reference values 
 - A login/account to ITA and an ITA API Key.
 - An Azure or GCP TDX CVM from which reference values will be collected (see CVM creation instructions for [Azure](https://docs.trustauthority.intel.com/main/articles/articles/ita/tutorial-tdx.html#creating-a-vm-with-intel-tdx-on-microsoft-azure) or [GCP](https://docs.trustauthority.intel.com/main/articles/articles/ita/tutorial-tdx.html#creating-a-cvm-with-intel-tdx-on-gcp)).
 - A linux host that can run `reference_values.sh` to generate reference values JSON.  The script requires...
-  - opa (see https://www.openpolicyagent.org/docs/latest/)
-  - jq (see https://jqlang.org/)
+  - opa (see https://www.openpolicyagent.org/docs/latest/).  Tested with v1.4.2.
+  - jq (see https://jqlang.org/).  Tested with v1.6.
 
 ## Instructions
 - Start a shell to your TDX CVM and install the `trustauthority-cli` (see https://docs.trustauthority.intel.com/main/articles/articles/ita/integrate-go-tdx-cli.html#simplified-installation-linux).

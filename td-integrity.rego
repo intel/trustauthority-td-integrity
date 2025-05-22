@@ -51,7 +51,9 @@
 #--------------------------------------------------------------------------------------------------
 package intel.ita.tdi
 
-appraisal_results(reference_values) := result {
+import rego.v1
+
+appraisal_results(reference_values) := result if {
   m := find_mrtd(reference_values.mrtds)
   k := find_kernel(reference_values.kernel_digests)
   sb := secure_boot
@@ -63,15 +65,15 @@ appraisal_results(reference_values) := result {
   }
 }
 
-find_mrtd(mrtds) := found {
+find_mrtd(mrtds) := found if {
   m := mrtds[_]
   m.key == input.tdx.tdx_mrtd
   found := m
-} else = found {
+} else = found if {
   found := {}
 }
 
-find_kernel(kernel_digests) := found {
+find_kernel(kernel_digests) := found if {
   evl := input.tpm.uefi_event_logs[_]
   evl.index == 4
   evl.type_name == "EV_EFI_BOOT_SERVICES_APPLICATION"
@@ -83,7 +85,7 @@ find_kernel(kernel_digests) := found {
   k := kernel_digests[_]
   k.key == digest
   found := k
-} else := found {
+} else := found if {
   evl := input.tdx.uefi_event_logs[_]
   evl.index == 3
   evl.type_name == "EV_IPL"
@@ -95,11 +97,11 @@ find_kernel(kernel_digests) := found {
   k := kernel_digests[_]
   k.key == digest
   found := k
-} else := found {
+} else := found if {
   found := {}
 }
 
-secure_boot := result {
+secure_boot := result if {
   evl := input.tpm.uefi_event_logs[_]
   evl.digest_matches_event == true
   evl.index == 7
@@ -107,7 +109,7 @@ secure_boot := result {
   evl.details.unicode_name == "SecureBoot"
   evl.details.variable_data == "AQ==" # base64 value of 1 (or true)
   result := "enabled"
-} else := result {
+} else := result if {
   evl := input.tpm.uefi_event_logs[_]
   evl.digest_matches_event == true
   evl.index == 7
@@ -115,7 +117,7 @@ secure_boot := result {
   evl.details.unicode_name == "SecureBoot"
   evl.details.variable_data != "AQ==" # ! base64 value of 1 (or true)
   result := "disabled"
-} else := result {
+} else := result if {
   evl := input.tdx.uefi_event_logs[_]
   evl.digest_matches_event == true
   evl.index == 1
@@ -123,7 +125,7 @@ secure_boot := result {
   evl.details.unicode_name == "SecureBoot"
   evl.details.variable_data == "AQ==" # base64 value of 1 (or true)
   result := "enabled"
-} else := result {
+} else := result if {
   evl := input.tdx.uefi_event_logs[_]
   evl.digest_matches_event == true
   evl.index == 1
@@ -131,7 +133,7 @@ secure_boot := result {
   evl.details.unicode_name == "SecureBoot"
   evl.details.variable_data != "AQ==" # ! base64 value of 1 (or true)
   result := "disabled"
-} else := result {
+} else := result if {
   result := "unknown"
 }
 

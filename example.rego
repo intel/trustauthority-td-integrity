@@ -5,6 +5,8 @@
 #--------------------------------------------------------------------------------------------------
 package example
 
+import rego.v1
+
 # copy generated reference values here (empty is provided to avoid opa errors)
 my_reference_values := {}
 
@@ -13,7 +15,7 @@ results := data.intel.ita.tdi.appraisal_results(my_reference_values)
 
 # compare the results from TD integrity to determine if the token's "policy_ids_matched" is true/false
 default matches = false
-matches = true {
+matches = true if {
   results.mrtd != {}                # not empty indicates an MRTD matched
   results.kernel != {}              # not empty indicates a kernel digest matched
   results.secure_boot == "enabled"  # secure boot is enabled
