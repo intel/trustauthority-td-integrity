@@ -3,14 +3,14 @@
 #
 # Example "tenant policy" that passes reference values to TD Integrity rego.
 #--------------------------------------------------------------------------------------------------
-package example
+package example # the 'package' statement must be removed before uploading to ITA
 
 import rego.v1
 
 # copy generated reference values here (empty is provided to avoid opa errors)
 my_reference_values := {}
 
-# pass the reference values to TD Integrity
+# pass the reference values to the TD Integrity catalog policy
 results := data.intel.ita.tdi.appraisal_results(my_reference_values)
 
 # compare the results from TD integrity to determine if the token's "policy_ids_matched" is true/false

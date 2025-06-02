@@ -12,6 +12,7 @@ ITA_API_KEY=${ITA_API_KEY:-""}
 CONFIG_FILE=${CONFIG_FILE:-"config.json"}
 TRUST_AUTHORITY_CLI="trustauthority-cli"
 TOKEN_ARGS=""
+EVIDENCE_DIR="evidence"
 
 # check env vars and dependencies
 if [[ -z ${CLOUD_PROVIDER} ]]; then
@@ -81,6 +82,7 @@ if [ $? -ne 0 ]; then
   exit 1
 fi
 
-FILE_NAME=${CLOUD_PROVIDER}.$(date +%s).jwt
+mkdir -p ${EVIDENCE_DIR}
+FILE_NAME=${EVIDENCE_DIR}/${CLOUD_PROVIDER}.$(date +%s).jwt
 echo $TOKEN > ${FILE_NAME}
 echo "ITA token saved to ${FILE_NAME}"
