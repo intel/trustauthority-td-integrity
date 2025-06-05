@@ -23,6 +23,7 @@ The following prerequisites are needed to collect TD Integrity reference values 
     |ITA_API_KEY|The API key used to authenticate with ITA.|export ITA_API_KEY={your api-key}|
     |CLOUD_PROVIDER|"gcp" or "azure" is needed.|export CLOUD_PROVIDER=azure|
 - Run `sudo -E ./evidence.sh` to create an attestation token file.  When successful, `evidence.sh` will create a file named {CLOUD_PROVIDER}.{timestamp}.jwt in the `evidence` directory (ex. "evidence/azure.1747062320.jwt").
+- Take ownership of the evidence folder and files: `sudo chown -R $(whoami:):$(whoami) evidence`.
 
 ### Reference Value Generation
 - Run `./reference_values.sh` to generate `out/reference_values.json`.
