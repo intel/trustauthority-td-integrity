@@ -7,7 +7,7 @@
 # "reference_values.sh" can include it into reference values.
 #--------------------------------------------------------------------------------------------------
 CLOUD_PROVIDER=${CLOUD_PROVIDER:-""}
-ITA_API_URL=${ITA_API_URL:-"https://api.pilot.trustauthority.intel.com"}
+ITA_API_URL=${ITA_API_URL:-"https://api.trustauthority.intel.com"}
 ITA_API_KEY=${ITA_API_KEY:-""}
 CONFIG_FILE=${CONFIG_FILE:-"config.json"}
 TRUST_AUTHORITY_CLI="trustauthority-cli"

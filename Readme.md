@@ -19,7 +19,7 @@ The following prerequisites are needed to collect TD Integrity reference values 
 - Export the following environment variables to the CVM's shell...
     |Env Variable|Description|Example|
     |---|---|---|
-    |ITA_API_URL|The instance of ITA used to create and verify reference values.|export ITA_API_URL=https://api.pilot.trustauthority.intel.com|
+    |ITA_API_URL|The instance of ITA used to create and verify reference values.|export ITA_API_URL=https://api.trustauthority.intel.com|
     |ITA_API_KEY|The API key used to authenticate with ITA.|export ITA_API_KEY={your api-key}|
     |CLOUD_PROVIDER|"gcp" or "azure" is needed.|export CLOUD_PROVIDER=azure|
 - Run `sudo -E ./evidence.sh` to create an attestation token file.  When successful, `evidence.sh` will create a file named {CLOUD_PROVIDER}.{timestamp}.jwt in the `evidence` directory (ex. "evidence/azure.1747062320.jwt").
